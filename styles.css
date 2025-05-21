@@ -1,0 +1,15 @@
+/* Stylesheet for index.html */
+
+.html {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+#tea-cozy-logo {
+    height: 50px;
+    display: inline-flex;
+    padding: 9.5px 10px;
+}
