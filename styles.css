@@ -34,6 +34,7 @@ header {
     background-color: black;
     border-bottom: 1px solid seashell;
     align-items: center;
+    position: fixed;
 }
 
 header img {
@@ -81,10 +82,11 @@ main {
 /* Featured Tea */
 
 #featured-tea {
-    height: 700px;
+    min-height: 700px;
     max-width: 1000px;
     margin: auto;
     padding-top: 70px;
+    padding-bottom: 15px;
 }
 
 .item {
@@ -107,12 +109,15 @@ main {
 /*Locations */
 
 #locations {
-    height: 500px;
-    width: 1200px;
+    min-height: 500px;
+    width: auto;
     background-image: url("Images/locations-background.jpg");
-    padding-top: 70px;
+    background-size: 1200px 500px cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: auto;
-    display: flex;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -128,4 +133,5 @@ main {
     margin: 5px 20px;
     width: 300px;
     background-color: black;
+    flex-shrink: 2;
 }
