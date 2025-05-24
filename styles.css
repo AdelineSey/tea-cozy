@@ -67,12 +67,15 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #mission .content {
     margin: auto;
     background-color: black;
-    width: 1200px;
+    width: 100%;
 }
 
 /* Featured Tea */
@@ -109,24 +112,20 @@ main {
     background-image: url("Images/locations-background.jpg");
     padding-top: 70px;
     margin: auto;
-}
-
-#locations .container {
-    margin: auto;
-    max-height: 500px;
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#locations .h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .location {
     opacity: 1.0;
     padding: 10px;
     margin: 5px 20px;
-    background-color: black;
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: black;
 }
